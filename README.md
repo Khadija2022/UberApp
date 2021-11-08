@@ -1,10 +1,16 @@
 # UberApp
 UberApp created by React Native
 
+```jsx
+import colors from "../config/colors.js";
+// inline style
+<View style={{color: colors.red}} />
+// styled components
+const Container = styled.View`
+	color: ${colors.red}
+`
 ```
-import * as Typography from "../config/typography.js";
+![config-colors2x](https://user-images.githubusercontent.com/93922393/140746951-1fe3fdec-756d-4888-84d5-ae8e700bffcb.png)
 
-<Typography.H1 color={colors.red}>Welcome to Airbnb</Typography.H1>
-```
 
 
